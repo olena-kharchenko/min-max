@@ -26,7 +26,9 @@ btnAdd.addEventListener('click', function () {
 });
 
 resetBtn.addEventListener('click', function () {
-  const numbers = [];
+  numbers.length = 0;
+  min = '';
+  max = '';
   outputEl.textContent = 0;
   outputE2.textContent = 0;
   outputE3.textContent = 0;
