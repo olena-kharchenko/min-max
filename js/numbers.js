@@ -29,4 +29,6 @@ resetBtn.addEventListener('click', function () {
   const numbers = [];
   outputEl.textContent = 0;
   outputE2.textContent = 0;
+  outputE3.textContent = 0;
+  outputE4.textContent = 0;
 });
